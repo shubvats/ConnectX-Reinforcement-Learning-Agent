@@ -1,0 +1,36 @@
+# **ConnectX Reinforcement Learning Competition**
+
+## **Description**
+
+This project involves participating in a reinforcement learning competition hosted on Kaggle, specifically focusing on the ConnectX game. The objective is to develop an AI agent capable of playing ConnectX effectively against other submissions.
+
+## **Competition Details**
+
+ConnectX is a game where players aim to connect a certain number of checkers (e.g., four) in a row horizontally, vertically, or diagonally on a game board. Participants compete against each other by submitting Python scripts that define the behavior of their agents in the game.
+
+## **Submission Requirements**
+
+Participants are required to create a Python `.py` file that implements an agent capable of making decisions in the ConnectX game. The agent should analyze the current board state and make optimal moves to win or prevent the opponent from winning.
+
+## **Evaluation**
+
+Submissions are evaluated based on their performance in simulated game episodes against other submissions. Each submission is assigned a skill rating modeled by a Gaussian distribution, which updates based on the outcomes of the episodes.
+
+## **Getting Started**
+
+To participate:
+- Fork the ConnectX starter notebook.
+- Modify the `submission.py` file to implement your agent's logic.
+- Ensure the agent returns valid moves within the specified time limits.
+
+## **Technical Implementation**
+
+Agents use the Kaggle Environments library to interact with the ConnectX game environment. Key considerations include board state representation, move decision algorithms, and efficient computation within time constraints.
+
+## **Leaderboard and Rating**
+
+The leaderboard ranks submissions based on their skill ratings. Ratings are updated dynamically as submissions compete in episodes, with adjustments based on performance relative to opponent ratings and uncertainties.
+
+## **Conclusion**
+
+This competition provides a platform to explore reinforcement learning techniques in a competitive setting. Participants can refine their AI agent strategies and gain insights into real-world applications of machine learning in gaming scenarios.
