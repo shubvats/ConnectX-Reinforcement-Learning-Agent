@@ -53,6 +53,5 @@ This competition is a beta launch, and your feedback is valuable. If you encount
 
 ## Citation
 
-ConnectX. (2020). Kaggle. Retrieved from https://www.kaggle.com/code/namratapatel05/dqn-connect-x
-
+ConnectX. (2020). Kaggle. Retrieved from https://www.kaggle.com/competitions/connectx/overview
 ---
